@@ -187,6 +187,20 @@ nav {
   color: white;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: url('avatar.png') center/cover no-repeat;
+  box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+
 
 .social:hover {
   transform: translateY(-6px);
@@ -216,3 +230,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
