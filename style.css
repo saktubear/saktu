@@ -299,6 +299,13 @@ hero-image img {
     transform: translateY(-10px);
   }
 }
+@media (max-width: 768px) {
+  .hero-right {
+    margin-top: 40px;
+  }
+}
+
+
 
 
 
