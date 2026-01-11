@@ -230,4 +230,31 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .hero-image {
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 220px;   /* adjust if needed */
+    height: 220px;
+  }
+}
+hero-image img {
+  transition: transform 0.4s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+  }
+
+
 
